@@ -1,0 +1,22 @@
+schema_version = "1.0.0"
+
+id = "ManuelsBoneGen"
+version = "1.0.0"
+name = "Bone To Mesh Gen"
+tagline = "Convert armature bones to mesh objects"
+maintainer = "MaG"
+
+type = "add-on"
+
+# Only keeping essential fields
+blender_version_min = "4.2.0"
+
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+
+tags = [ "Mesh", "Rigging"]
+
+description = """
+A utility addon to convert bones to mesh and have the mesh weighted to the bone. This is useful for visualizing the bone positions in games.
+"""

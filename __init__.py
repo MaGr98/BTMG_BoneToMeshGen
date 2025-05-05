@@ -7,7 +7,7 @@ class VIEW3D_PT_BoneToMeshPanel(bpy.types.Panel):
     bl_description = "Create a mesh from the selected bone"
     bl_space_type = 'VIEW_3D'
     bl_region_type = 'UI'
-    bl_category = "Manuel's Bone Gen 2.0"
+    bl_category = "BTMGen"
 
     def draw(self, context):
         layout = self.layout

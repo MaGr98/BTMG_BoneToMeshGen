@@ -18,5 +18,5 @@ license = [
 tags = [ "Mesh", "Rigging"]
 
 description = """
-A utility addon to convert bones to mesh and have the mesh weighted to the bone. This is useful for visualizing the bone positions in games.
+A addon to convert blender armatures to mesh. The transformed mesh is weighted with the armature.
 """
